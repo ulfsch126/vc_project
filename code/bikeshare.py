@@ -1,7 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
-
+### paths for .csv-files need to be updated for using code locally
 CITY_DATA = { 'chicago': 'Project/chicago.csv',
               'new york city': 'Project/new_york_city.csv',
               'washington': 'Project/washington.csv' }
