@@ -210,14 +210,14 @@ def user_stats(df):
     print('-'*40)
 
 def display_data(df):
-    view_data = input("\nWould you like to see 5 lines of the filtered raw data? Enter yes or no.\n")
+    view_data = ask_yes_no("\nWould you like to see 5 lines of the filtered raw data? Enter yes or no.\n")
     start_loc = 0
     while True:
         if view_data != 'yes':
             break
         print(df.iloc[start_loc:start_loc+5])
         start_loc += 5
-        view_data = input("Do you wish to to display another 5 rows of raw data?: ").lower()
+        view_data = ask("Do you wish to to display another 5 rows of raw data?: ")
 
 def ask_yes_no(promt:str) -> str:
     # Checks user Input for correct input
