@@ -14,7 +14,7 @@ Addapt the paths (line 5-7 in bikeshare.py) of the .csv files before running th 
 
 ## Files used
 bikeshare.py
-
+.csv files provided by the bikeshare companies 
 
 ## Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
