@@ -219,6 +219,13 @@ def display_data(df):
         start_loc += 5
         view_data = input("Do you wish to to display another 5 rows of raw data?: ").lower()
 
+def ask_yes_no(promt:str) -> str:
+    # Checks user Input for correct input
+    while True:
+        answer = input(promt)
+        if answer in ('yes,'no')
+            return answer
+        print("Invalid input. Please type 'yes' or 'no'!")
 
 def main():
     while True:
